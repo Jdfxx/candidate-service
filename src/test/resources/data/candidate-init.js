@@ -11,7 +11,7 @@ db.createUser({
 
 db.createCollection('candidate');
 
-db.job.insertMany([
+db.candidate.insertMany([
     {
         name: "senior jave developer",
         skills: ["java"],
